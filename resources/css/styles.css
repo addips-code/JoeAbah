@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-style: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)),
+                     url(../img/man-in-blue-suit-999267.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.row {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+}
+
+.image-text {
+    float: left;
+}
+
+.text {
+    color: #0202ff;
+    font-weight: 400;
+    top: 3rem;
+    position: absolute;
+    left: 6rem;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 40px;
+}
+
+.main-nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    color: #fff;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+}
+
+h1{
+    margin: 0;
+}
+
+.About {
+    background-color: #eee;
+    height: 40vh;
+}
+
+h3 {
+    color: #0202ff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#len{
+    border-right: 1px solid black;
+}
+
+.para{
+    word-spacing: 7px;
+    letter-spacing: 1px;
+}
+
+.story{
+    height: 100vh;
+}
+
+.image-self{
+    float: left;
+
+}
+
+.self-story{
+    float: right;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+cite img{
+    height: 30rem;
+    border-radius: 50%;
+}
+
+.footer{
+    height: 10vh;
+    background-color: #0ab0ef;
+}
+
+.copy{
+    position: relative;
+    left: 2.3rem;
+    top: 1rem;
+}
+
+
